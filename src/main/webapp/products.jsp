@@ -9,7 +9,7 @@
 </head>
 <body>
 	<jsp:include page="menu.jsp" />
-	<div class="jumbotron">
+	<div class="jumbotron" >
 		<div class="container">
 			<h1 class="display-3">상품 목록</h1>
 		</div>
@@ -24,8 +24,8 @@
 				while (rs.next()) {
 			%>
 			<div class="col-md-4">
-				<img src="C:/upload/<%=rs.getString("p_fileName")%>" style="width: 100%">
-				<h3><%=rs.getString("p_name")%></h3>
+				<img src="img/<%=rs.getString("p_fileName")%>" style="width: 90%; height: 50% ">
+				<h2><%=rs.getString("p_name")%></h2>
 				<p><%=rs.getString("p_description")%>
 				<p><%=rs.getString("p_UnitPrice")%>원
 				<p>

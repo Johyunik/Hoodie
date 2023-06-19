@@ -41,7 +41,7 @@
 			</div>
 			<div class="form-group row">
 				<label class="col-sm-2"><fmt:message key="description" /></label>
-				<div class="col-sm-5">
+				<div class="col-sm-4">
 					<textarea name="description" cols="50" rows="2" class="form-control"></textarea>
 				</div>
 			</div>
@@ -65,7 +65,7 @@
 			</div>
 			<div class="form-group row">
 				<label class="col-sm-2"><fmt:message key="condition" /></label>
-				<div class="col-sm-5">
+				<div class="col-sm-4">
 					<input type="radio" name="condition" value="New " ><fmt:message key="condition_New"/> 
 					<input type="radio" name="condition" value="Old" ><fmt:message key="condition_Old" />
 					<input type="radio" name="condition" value="Refurbished" ><fmt:message key="condition_Refurbished" />
